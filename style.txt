@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+ font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aquamarine;
+}
+.aside{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: cadetblue;
+    width: 25vw;
+    height: 100vh;
+    
+    border: .3rem solid black;
+    
+}
+
+.heder{
+    width: 100vw;
+    height: 20vh;
+    background-color: cornflowerblue;
+    flex-wrap: wrap;
+    display: flex;
+    
+    border: .3rem solid black;
+}
+.pie{
+    width: 100vw;
+    height: 20vh;
+    background-color: darkblue;
+    flex-wrap: wrap;
+    display: flex;
+    border: .3rem solid black;
+ 
+}
+
+.d1{
+    width: 15rem;
+    height: 10rem;
+    flex-basis: 10rem;
+    justify-content: center;
+    flex-direction: column;
+    background-color: darkslategray;
+    
+}
+.d2{
+    width: 15rem;
+    height: 10rem;
+    flex-basis: 10rem;
+    justify-content: center;
+    flex-direction: column;
+    background-color: darkslateblue;
+    
+}
+.d3{
+    width: 15rem;
+    height: 10rem;
+    flex-basis: 10rem;
+    justify-content: center;
+    background-color: dimgray;
+    flex-direction: column;
+}
+.d4{
+    width: 15rem;
+    height: 10rem;
+    flex-basis: 10rem;
+    justify-content: center;
+    background-color: teal;
+    flex-direction: column;
+}
+.menu{
+    justify-content: center;
+}
+    
